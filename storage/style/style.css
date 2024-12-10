@@ -1,33 +1,134 @@
 @import url(variables.css);
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
 body{
     background-color: #080c15;
     width: 1440px ;
     height: 1024px;
     }
 
-.boxOne{
-    display:  flex;
-    flex-direction: row;
+.row1{
+    width: 560px;
+    height: 640px;
+    
+    position: absolute;
+    top: 115px;
+    left: 200px;
+
+}
+
+.row1 h1 {
+    font-family: "Montserrat-ExtraBold" ;
+    font-size: 64px;
+    color:var(--color-2);
+    
+}
+
+.row1 h1 span {
+    color:var(--color-3);
+}
+
+.flexburgers {
+    display: flex;          
+    justify-content: flex-start;
+    align-items: center;     
+    gap: 0px;               
+}
+
+.flexburgers img {
+    max-width: 100%;         
+    height: auto;            
+    margin-right: -35px;   
+}
+.lorem{
+    font-family: "Montserrat-Regular" ;
+    color: var(--color-2);
+    font-size: 24px;
+}
+.redbutton{
+    
+    height: 70px;
+    background-color: var(--color-3);
+    width: 260px;
+    border-radius: 30px;
+    margin-left: 0px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
 
 }
 
+.redbutton p{
+    margin: 0;
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-2);
 
-
-
-
-.textAling{
-    font-size: medium;
-    color: #ffffff;
-    font-family:"Montserrat-ExtraBold" ;
-    
 }
-.highlight{
-    color: red;
+.redbutton:hover {
+    background-color: darkred; 
 }
-    
-    
 
+.row2{
+    width: 539px;
+    height: 720px;
+    
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+.row_2 {
+    width: 150%;
+    
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+ 
+.row3{
+    width: 1100px;
+    height: 100px;
+    
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    display: flex;
+    gap: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+        
+}    
+
+.option1{
+    border-radius: 30px;
+    height: 100px;
+    width: 700px;
+    background-color: white;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+}    
+.option2{
+    border-radius: 30px;
+    height: 100px;
+    width: 350px;
+    background-color: white;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+}    
+.option3{
+    border-radius: 30px;
+    height: 100px;
+    width: 350px;
+    background-color: white;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+}    
