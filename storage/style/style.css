@@ -18,7 +18,7 @@ body{
     
     position: absolute;
     top: 150px;
-    left: 200px;
+    left: 400px;
 
 }
 
@@ -81,7 +81,7 @@ body{
     
     position: absolute;
     top: 30px;
-    right: 360px;
+    right: 200px;
     z-index: -1;
 }
 
@@ -101,7 +101,7 @@ body{
     
     position: absolute;
     bottom: 70px;
-    left: 200px;
+    left: 400px;
     
     gap: 10px;
     display: flex;
