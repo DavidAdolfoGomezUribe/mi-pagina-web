@@ -4,9 +4,13 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../font/AvenirLTStd-Heavy.otf);
  }
 
+ @font-face {
+   font-family: "AvenirLTStd-Roman.otf";
+   src: url(../font/AvenirLTStd-Roman.otf);
+}
 
  
