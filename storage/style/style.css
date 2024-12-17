@@ -6,3 +6,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+.box1{
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 36%;
+    transform: translateX(-60%);
+    flex-direction: column;
+    
+    width: 262px;
+    height: 473px;
+    
+}
+
+.box1 h1{
+    font-family: "AvenirLTStd-Heavy.otf";
+    font-size: 38px;
+}
+.box1 p{
+    font-family: "AvenirLTStd-Roman.otf";
+    font-size: 16px;
+    color:rgba(37, 37, 37, 0.8);
+    font-stretch: normal;
+
+}
+
+
+
+.button1{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    background-color:black;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "AvenirLTStd-Roman.otf";
+}
+.box2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.box2 img{
+    width: 67%;
+}
+
+
+.box3{
+
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 145px;
+    left: 62.7%;
+    transform: translateX(-20%);
+    
+}
+
+.box3 img{
+    width: 67%;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 25px;    
+  
+    
+}
+.box4img1{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    font-family: "AvenirLTStd-Heavy.otf";
+    color: rgba(37, 37, 37, 0.25);
+    font-size: 25px;
+    gap: 9px;
+}
+
