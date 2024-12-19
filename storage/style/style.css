@@ -110,7 +110,7 @@ body{
 }    
 
 .option1{
-    border-radius: 50px;
+    border-radius: 45px 0 0 45px;
     height: 90px;
     width: 350px;
     color: var(--color-2);
@@ -125,7 +125,7 @@ body{
 
 }    
 .option2{
-    border-radius: 50px;
+    border-radius: 45px 0 0 45px;
     height: 90px;
     width: 350px;
     color: var(--color-2);
@@ -138,7 +138,7 @@ body{
 
 }    
 .option3{
-    border-radius: 50px;
+    border-radius: 45px 0 0 45px;
     height: 90px;
     width: 350px;
     color: var(--color-2);
