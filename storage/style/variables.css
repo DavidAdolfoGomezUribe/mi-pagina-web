@@ -5,7 +5,7 @@
 
  @font-face {
     font-family: "example";
-    src: url(../font/example.ttf);
+    src: url(../font/AvenirLTStd-Black.otf) format("opentype");
  }
 
 
