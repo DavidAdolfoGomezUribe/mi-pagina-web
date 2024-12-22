@@ -4,9 +4,17 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/AvenirLTStd-Black.otf) format("opentype");
+    font-family: "AvenirLTStd-Heavy.otf";
+    font-weight: 800;
+    src: url(../font/AvenirLTStd-Heavy.otf) format("opentype");
  }
+
+ @font-face {
+   font-family: "AvenirLTStd-Roman.otf";
+   font-weight: 400;
+   src: url(../font/AvenirLTStd-Roman.otf) format("opentype");
+}
+
 
 
  
