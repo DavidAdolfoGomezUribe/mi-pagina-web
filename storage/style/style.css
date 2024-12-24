@@ -78,7 +78,7 @@ img, video, svg{height: auto; max-width: 100%;}
             p{
                 font-family: "AvenirLTStd-Roman.otf";
                 font-size: 24px;
-                line-height: auto;
+                line-height: 34px;
                 letter-spacing: 0%;
                 text-align: left;
                 color:rgba(37, 37, 37, 0.8) ;
