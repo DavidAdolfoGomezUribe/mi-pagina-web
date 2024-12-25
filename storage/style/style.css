@@ -160,11 +160,14 @@ transition: none;
     flex-direction: row;
     gap: 80px;
 
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    text-align: center;
+    
     
     
     .flexbox{
+        
         
         width: 91px;
         height: 70px;
