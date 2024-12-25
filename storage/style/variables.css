@@ -3,10 +3,18 @@
     
  }
 
- @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
- }
+@font-face {
+   font-family: "PlayfairDisplay-Bold.ttf";
+   src: url(../font/PlayfairDisplay-Bold.ttf);
+}
 
+@font-face {
+   font-family: "WorkSans-Regular.ttf";
+   src: url(../font/WorkSans-Regular.ttf);
+}
 
+@font-face {
+   font-family: "WorkSans-Medium.ttf";
+   src: url(../font/WorkSans-Medium.ttf);
+}
  
