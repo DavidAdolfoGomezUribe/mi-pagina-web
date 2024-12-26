@@ -4,9 +4,17 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "WorkSans-Bold.ttf";
+    src: url(../font/WorkSans-Bold.ttf);
  }
 
+ @font-face {
+   font-family: "WorkSans-Light.ttf";
+   src: url(../font/WorkSans-Light.ttf);
+}
 
+@font-face {
+   font-family: "WorkSans-Medium.ttf";
+   src: url(../font/WorkSans-Medium.ttf);
+}
  
