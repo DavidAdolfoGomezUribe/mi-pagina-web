@@ -72,7 +72,7 @@ body{
 
 .imgcontainer{
     position: absolute;
-    top:194px;
+    top:130px;
     width: 618.33px;
     height: 795.5px;
     left: 64px;
@@ -109,8 +109,7 @@ body{
         font-family: "WorkSans-Bold.ttf";
         font-size: 88px;
         line-height: 104px;
-        color: #ffffff;
-        
+        color: #ffffff;                
                 
     }
 
