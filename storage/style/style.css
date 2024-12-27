@@ -26,6 +26,8 @@ img, video, svg{height: auto; max-width: 100%;}
 body{
     /*background: linear-gradient(45deg ,rgba(156, 32, 4, 1) , rgba(171, 39, 6, 1) ) ;*/
     background-color: rgba(156, 32, 4, 1);
+    height: 100vh;
+
 }
 
 .container{
@@ -37,6 +39,9 @@ body{
     
 }
 
+.articlecontainer{
+    height: 100vh;
+}
 
 .dotsA{
     top: 64px;
@@ -71,14 +76,13 @@ body{
 
 
 .imgcontainer{
-    position: absolute;
-    top:130px;
+    display: flex;
+    align-items: end;
+    position: relative;
+    bottom:0px;
     width: 618.33px;
-    height: 795.5px;
+    height: inherit;
     left: 64px;
-    
-    
-    
     
 }
 
