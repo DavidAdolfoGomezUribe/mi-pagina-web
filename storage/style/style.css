@@ -2,7 +2,206 @@
 
 
 *{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato */;
+}
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+
+    .container {
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        width: 1440px;
+        height: 1024px;
+    }
+
+    .filter{
+        
+        left: 496px;
+        top: 182px;
+        width: 446px;
+        height: 711px;
+        position: absolute;
+        z-index: -1;
+        background: linear-gradient(to right, 
+                  rgb(102, 170, 248) 50%, 
+                  rgb(152, 250, 149) 50%), 
+                linear-gradient(to top , 
+                  rgb(120, 111, 247) 50%, 
+                  rgb(255, 0, 0) 50%);
+        background-blend-mode: screen;
+        filter: blur(60px);
+
+    }
+
+    .flexcontainer{
+        left: 401px;
+        top: 231px;
+        width: 637px;
+        height: 692px;
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 48px;
+
+        h1{
+           
+            font-family: "Typography\ Times\ Regular.ttf";
+            font-size: 112px;
+            line-height: 108px;
+            color: #252525;
+            height: 324px;
+            width: 600px;
+            font-weight: 200;
+            text-align: center;
+        }
+        
+        p{
+            font-family: "Typography\ Times\ Regular.ttf";
+            font-size: 24px;
+            line-height: 32px;
+            color: rgba(37, 37, 37, 0.8);
+            text-align: center;
+            width: 334px;
+            height: 158px;
+            
+            
+        }
+
+        button{
+            border-radius: 36px;
+            background-color: #252525;
+            color: white;
+            font-family: "Poppins-Regular.ttf";
+            font-size: 24px;
+            cursor: pointer;
+            width: 182px;
+            height: 66px;
+
+        }
+    }
+
+
+
+    .textcontainerA{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        left: 64px;
+        top: 99px;
+        position: absolute;
+
+        h2{
+            font-family: "Typography\ Times\ Bold.ttf";
+            font-size: 24px;
+            line-height: 32px;
+            color: rgba(37, 37, 37, 0.45);
+
+        }
+
+        p{
+            font-family: "Typography\ Times\ Regular.ttf";
+            font-size: 24px;
+            line-height: 32px;
+            color: rgba(37, 37, 37, 0.8);
+            width: 484px;
+            height: 64px;
+            
+            
+        }
+
+
+    }
+
+
+    .textcontainerB{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        left: 942px;
+        top: 812px;
+        position: absolute;
+
+        h2{
+            font-family: "Typography\ Times\ Bold.ttf";
+            font-size: 24px;
+            line-height: 32px;
+            olor: rgba(37, 37, 37, 0.45);
+
+        }
+
+        p{
+            font-family: "Typography\ Times\ Regular.ttf";
+            font-size: 24px;
+            line-height: 32px;
+            color: rgba(37, 37, 37, 0.8);
+            width: 484px;
+            height: 64px;
+        }
+   }
+
+   .imgcontainerA{
+        left: 64px ;
+        top: 432px;
+        width: 412px;
+        height: 528px;
+        position: absolute;
+
+   }
+
+   .imgcontainerB{
+    left: 964px ;
+    top: 64px;
+    width: 412px;
+    height: 528px;
+    position: absolute;
+
+}
+
+.shapecontainerA{
+    left: 97.5px;
+    top:  256.04px;
+    position: absolute;
+
+}
+
+.shapecontainerB{
+    left: 311px;
+    top:  237px;
+    position: absolute;
+
+}
+
+.shapecontainerC{
+    left: 921px;
+    top:  535px;
+    position: absolute;
+
+}
+
+.shapecontainerD{
+    left: 1135px;
+    top:  647px;
+    position: absolute;
 }

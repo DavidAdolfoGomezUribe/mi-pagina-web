@@ -4,9 +4,18 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "Typography\ Times\ Regular.ttf";
+    src: url(../font/Typography\ Times\ Regular.ttf);
  }
 
 
- 
+ @font-face {
+   font-family: "Typography\ Times\ Bold.ttf";
+   src: url(../font/Typography\ Times\ Bold.ttf);
+}
+
+
+ @font-face {
+   font-family: "Poppins-Regular.ttf";
+   src: url(../font/Poppins-Regular.ttf);
+}
