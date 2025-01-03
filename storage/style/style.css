@@ -34,7 +34,7 @@ body {
     top: 0;
     position: relative;
     z-index: -1;
-    overflow: hidden;
+    
 }
 
 
@@ -71,7 +71,7 @@ body {
     left: 50%;
     gap: 54px;
     align-items: center;
-
+    z-index: 1;
     h1{
         font-family: "Lato-Bold.ttf";
         font-size: 129.6px;
@@ -83,13 +83,12 @@ body {
         font-size: 35.1px;
         line-height: auto;
         color: #ffffff;
-        display: flex;
         text-align: center;
         width: 741px;
 
     }
 
-    button{
+    .boton {
         font-family:  "Lato-Medium.ttf";
         font-size: 32.4px;
         background-color: #ffffff;
@@ -97,11 +96,13 @@ body {
         width: 236.25px;
         height: 89.1px;
         border-radius: 46px;
-        padding: 24px 48px 24px 48px;
         cursor: pointer;
+        padding: 24px 48px 24px 48px;
+        
+        
     }
     
-    button:hover{
+    .boton:hover {
         background-color: #dfdfdf;
         color: #252525;
         
@@ -120,6 +121,8 @@ body {
     top: 0;
     overflow: hidden;
     
+    .flexcontainer{
+        
     
     h2{
         font-family: "Lato-ExtraBold.ttf";
@@ -139,4 +142,7 @@ body {
         overflow: hidden;
 
     }
+
+    }
+
 }
