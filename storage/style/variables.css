@@ -23,3 +23,13 @@
    font-family: "Poppins-SemiBold.ttf";
    src: url(../font/Poppins-SemiBold.ttf);
  }
+ 
+ @font-face {
+   font-family: "Poppins-Regular.ttf";
+   src: url(../font/Poppins-Regular.ttf);
+ }
+
+   @font-face {
+      font-family: "Poppins-Light.ttf";
+      src: url(../font/Poppins-Light.ttf);
+   }

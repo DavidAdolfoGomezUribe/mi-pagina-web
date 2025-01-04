@@ -4,7 +4,7 @@
 *{
     margin: 0; 
     padding: 0; 
-    outline: 1px solid tomato;
+    /*outline: 1px solid tomato*/;
 }
 
 *::before, *::after{box-sizing: border-box;}
@@ -34,6 +34,15 @@ transition: none;
  
 }
 
+.imgbackground{
+    left: 730px;
+    top: 64px; 
+    position: absolute;
+    width: 592.48px;
+    height: 592.48px;
+    
+}
+
 .container{
     position: relative;
     width: 1440px;
@@ -46,7 +55,7 @@ transition: none;
 .title{
     position: absolute;
     left: 126px;
-    top: 257px;
+    top: 157px;
     width: 498px;
     height: 498px;
     display: flex;
@@ -76,6 +85,7 @@ transition: none;
         font-family: "AvenirLTStd-Roman.otf";
         font-size: 24px;
         color: #ffffff  ;
+        cursor: pointer;
     }
 
 }
@@ -88,11 +98,12 @@ transition: none;
     height: 188px;
     display: flex;
     flex-direction: row;
-    gap: 88px;
+    gap: 86px;
     align-items: center;
     background-color:rgba(236, 218, 196, 1) ;
     border-radius: 80px ;
-    padding: 0px 96px 0px 96px;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
 
     .flexcontainer{
         display: flex;
@@ -100,6 +111,7 @@ transition: none;
         gap: 4px;
         align-items: center;
         text-align: center;
+        
 
         img{
             width: 36px;
@@ -113,12 +125,40 @@ transition: none;
         }
 
         p{
-            
+            font-family: "Poppins-Regular.ttf";
+            font-size: 16px;
+            color: rgba(54, 48, 49, 1);
+            width: 171px;
+
         }
-
-
     }
-    
+}
 
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    position: absolute;
+    left: 63px;
+    top: 947px;
+    width: 1314px;
+    height: 138px;
+    
+    .imgflex{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        p{
+            font-family: "Poppins-Light.ttf";
+            font-size: 18px;
+            color: white;
+            width: 189px;	
+        }
+        
+        
+    }
 
 }
+
+
