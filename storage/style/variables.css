@@ -4,9 +4,22 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "PlayfairDisplay-Bold.ttf";
+    src: url(../font/PlayfairDisplay-Bold.ttf);
  }
 
 
- 
+ @font-face {
+   font-family: "PlayfairDisplay-Regular.ttf";
+   src: url(../font/PlayfairDisplay-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: "AvenirLTStd-Roman.otf";
+   src: url(../font/AvenirLTStd-Roman.otf);
+ }
+
+ @font-face {
+   font-family: "Poppins-SemiBold.ttf";
+   src: url(../font/Poppins-SemiBold.ttf);
+ }
