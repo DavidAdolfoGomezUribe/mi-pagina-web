@@ -1,8 +1,145 @@
 @import url(variables.css);
 
-
 *{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+body{
+    background-color:rgba(1, 6, 37, 1) ;
+}
+
+.container{
+    position: relative;
+    background-color: transparent;
+    width: 1440px;
+    height: 1457px;
+    margin: 0 auto;
+
+}
+
+.textcontainer{
+    position: absolute    ;
+    left: 104px;
+    top: 133px;
+    width: 542px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    h1{
+        font-family: "Lato-ExtraBold.ttf";
+        font-size: 88px;
+        color: white;   
+        width: 405px;
+    }
+
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 24px;
+        line-height: 36px;
+        line-height: auto;
+        color: white;
+    }
+
+
+    button{
+        width: 190px;
+        height: 66px;
+        background-color: white;
+        color:rgba(1, 6, 45, 1);
+        font-family: "Lato-Medium.ttf"; 
+        font-size: 28px;
+        border-radius: 16px ;
+        padding: 24px 48px 24px 48px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.listcontainer{
+    position: absolute;
+    left: 878px;
+    top: 597px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 456px;
+    height: 485px;
+
+    div{
+        width: 96px;
+        height: 8px;
+        background-color: white;
+
+    }
+    .flexcontainer{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        h2{
+            font-family: "Lato-Black.ttf";
+            font-size: 32px;
+            color: white;
+        }
+
+        p{
+            font-family:"Lato-Light.ttf"; 
+            font-size: 24px;
+            line-height: 32px;
+            color: white;
+        }
+    }
+
+
+}
+
+
+.imgcontainerA{
+    position: absolute;
+    top: 0px;
+    left: 646px;
+    width: 732px;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+
+}
+
+.imgcontainerB{
+    position: absolute;
+    left: 64px;
+    top: 757px;
+
+}
+
+.imgcontainerC{
+    position: absolute;
+    left: 64px;
+    top: 1133px;
+    width: 1284px;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
 }
