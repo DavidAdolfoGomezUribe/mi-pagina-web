@@ -47,16 +47,28 @@ body {
 }
 
 .img2{
-
+    position: relative;
     display: flex;
     flex-direction: row;
     gap: 0px;
     width: 100%;
     height: auto;
     img{
+        
         width: calc(1/3 *100%);
     }
 }
+.img2::before {
+    content: "";
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
 
 .title{
     position: absolute;
@@ -112,16 +124,22 @@ body {
 
 
 .textcontainer{
+    
     display: flex;
     flex-direction: row;
     width: 100%; 
+    
     justify-content: flex-start;
     position: absolute;
     padding-top: 96.6%;
     top: 0;
     overflow: hidden;
     
+    
+    
+    
     .flexcontainer{
+        
         
     
     h2{
@@ -140,7 +158,9 @@ body {
         font-size: 32.4px;
         color: #ffffff;
         overflow: hidden;
-
+        
+        
+    
     }
 
     }
