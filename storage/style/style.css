@@ -4,7 +4,7 @@
 *{
     margin: 0; 
     padding: 0; 
-    outline: 1px solid tomato;
+    /*outline: 1px solid tomato;*/
 }
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
@@ -31,7 +31,7 @@ body{
     z-index: -1;
     position: absolute;
     left: 59px;
-    top: -72px;
+    top: 0px;
     position: absolute;
     img{
         border-radius: 400px;
@@ -48,7 +48,7 @@ body{
     background: 
         radial-gradient(circle at center,rgba(13, 15, 27, 0 ) 0%,
                                          rgba(13, 15, 27, 0 ) 50%,
-                                         rgba(13, 15, 27, 1 ) 80%) ;
+                                         rgba(13, 15, 27, 1 ) 85%) ;
     border-radius: 100px ;
     position: absolute;
     top: 0;
@@ -121,14 +121,34 @@ body{
         justify-content: center;
         backdrop-filter: blur(20px);
         border-radius: 16px;
-        background:linear-gradient(0deg, rgba(255,255,255, 0.1)0%,
-        rgba(255,255,255, 0.1)100%);
+        background:linear-gradient(0deg,
+            rgba(255,255,255, 0.1)0%,
+            rgba(255,255,255, 0.1)100%);
+            
         width: 412px;
         height: 232px;
+        padding-left: 64px;
+        gap: 16px;
+
+        h2{
+            width: 305px;
+            height: auto;
+            font-family: "Lato-Black.ttf";
+            font-size: 32px;
+            color: #ffffff;
+        }
         
-        
+        p{
+            width: 305px;
+            height: auto;
+            font-family: "Lato-Light.ttf";
+            font-size: 24px;
+            color: white;
+        }
     }
-    section:nth-child(1){
+
+
+    /*section:nth-child(1){
         
         h2{
             color: #ffffff;
@@ -139,6 +159,6 @@ body{
             color: #ffffff;
             padding-left: 54px;
         }
-    }
+    }*/
     
 }
