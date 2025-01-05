@@ -2,7 +2,143 @@
 
 
 *{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    outline: 1px solid tomato;
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+body{
+    background-color: rgba(13, 15, 27, 1);
+}
+
+
+.imgbackground{ 
+    z-index: -1;
+    position: absolute;
+    left: 59px;
+    top: -72px;
+    position: absolute;
+    img{
+        border-radius: 400px;
+    }
+    
+}
+
+
+.imgbackground::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at center,rgba(13, 15, 27, 0 ) 0%,
+                                         rgba(13, 15, 27, 0 ) 50%,
+                                         rgba(13, 15, 27, 1 ) 80%) ;
+    border-radius: 100px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+
+}
+
+.flexcontainerA{
+    left: 65px;
+    top: 170px;
+    width: 684px;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+
+    h1{
+        font-family: "Lato-Black.ttf";
+        font-size: 88px;
+        color: white;
+
+    }
+
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 24px;
+        color: white;
+        width: 568px;
+        font-weight: 100;
+
+    }
+
+    button{
+        background-color: #ffffff;
+        width: 216px;
+        height: 66px;
+        font-family: "Lato-Regular.ttf";
+        font-size:24px ;
+        padding: 24px 48px 24px 48px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        cursor:pointer;
+    }
+}
+
+.flexcontainerB{
+    position: absolute;
+    width: 1284px;
+    height: 232px;
+    left: 64px;
+    top: 728px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        backdrop-filter: blur(20px);
+        border-radius: 16px;
+        background:linear-gradient(0deg, rgba(255,255,255, 0.1)0%,
+        rgba(255,255,255, 0.1)100%);
+        width: 412px;
+        height: 232px;
+        
+        
+    }
+    section:nth-child(1){
+        
+        h2{
+            color: #ffffff;
+            padding-left: 54px;
+        }
+
+        p{
+            color: #ffffff;
+            padding-left: 54px;
+        }
+    }
+    
 }
