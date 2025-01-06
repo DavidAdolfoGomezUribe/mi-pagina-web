@@ -23,8 +23,12 @@ transition: none;
 }
 }
 
-
-.imgbackground{
+body{
+    background: url(../img/unsplash_xB4ExGcUai0.png) no-repeat;
+    background-size: cover ;
+    
+}
+/*.imgbackground{
     background-color: rgb(197, 197, 197);
     position: relative;
     top: 0;
@@ -34,7 +38,7 @@ transition: none;
         width: 100%;
     }
 
-}
+}*/
 
 .imgflex{
     position: absolute;
