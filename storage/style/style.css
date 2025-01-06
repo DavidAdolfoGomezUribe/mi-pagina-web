@@ -1,8 +1,115 @@
 @import url(variables.css);
 
-
 *{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.imgbackground{
+    position: relative;
+    top: 0;
+    img{
+        width: 100%;
+        
+    }
+
+}
+
+.imgflex{
+    position: absolute;
+    padding-left: 75.83%;
+    top: 6.05%;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 19.72%;
+    height: 20.06%;
+    
+    
+}
+
+.flextext{
+    position: absolute;
+    top: 28.5%;
+    left: 4.44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 41.04%;
+    height: auto ;
+    backdrop-filter: blur(20px);
+    border-radius: 48px;
+    padding-bottom: 6.03%;
+    
+
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(0, 0, 0, 0.35),63%,
+        rgba(0, 0, 0, 0)100%
+        );
+        
+        
+        
+    p:nth-child(1){
+        font-family: "Montserrat-Regular.ttf";
+        font-size:  1.5vw;
+        color: white;
+        padding: 7.03% 0px 0px 3.33vw;
+    }
+    
+    h1{
+        
+        font-family: "Montserrat-SemiBold.ttf";
+        font-size: 5vw;
+        color: white;
+        padding: 0px 2.75vw 0px 3.33vw;
+        
+        
+    }
+    
+    
+    p{
+        font-family: "Montserrat-Regular.ttf";
+        font-size: clamp(16px, 1.66vw, 40px);
+        color: white;
+        padding: 0px 3.33vw 0px 3.33vw;
+        line-height: 1.29em;
+        font-weight: 100;
+    }
+    
+    button{
+        position: relative;
+        background-color: rgba(81, 155, 253, 1);
+        color: white;
+        border-radius: 40px ;
+        left: 3.33vw;
+        font-family: "Montserrat-Medium.ttf";
+        font-size: 1.52vw;
+        padding: 2.34% 0 2.34% 0;
+        width: 17.5vw;
+        height: auto;
+        cursor: pointer;
+    }
+    
+
+    
+
 }
