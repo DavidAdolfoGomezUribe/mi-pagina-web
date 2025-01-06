@@ -23,12 +23,15 @@ transition: none;
 }
 }
 
+
 .imgbackground{
+    background-color: rgb(197, 197, 197);
     position: relative;
     top: 0;
+    
+
     img{
         width: 100%;
-        
     }
 
 }
