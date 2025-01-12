@@ -159,6 +159,11 @@ main{
     width: 1312px;
     justify-content: space-around;
 
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.493) 0%,
+                                      rgba(255, 255, 255, 0.11) 50%,
+                                      rgba(27, 27, 27, 0) 100%);
+    border-bottom-left-radius:35px ;
+    border-bottom-right-radius: 35px;
     p{
         width: 223px;
     }
