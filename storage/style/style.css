@@ -37,3 +37,30 @@ transition: none;
     height: auto;
     gap:2.77vw;
 }
+
+.flexcontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 55.83vw;
+    left: 50%;
+    transform:translateX(-50%) ;
+    width: 82.638vw;
+    height: 10.833vw;
+    background-color: rgba(239, 238, 238, 1);
+    gap:2.77vw;
+    border-radius: 1.66vw;
+    align-items: center;
+    
+    
+    img{
+        height: 5.27vw;
+        width: 5.27vw;
+    }
+
+    .boxcontainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
