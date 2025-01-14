@@ -70,5 +70,10 @@ body{background-color: rgba(251, 244, 223, 1);}
         padding-bottom: 32px;
     }
 
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 24px;
+    }
+
 }
 

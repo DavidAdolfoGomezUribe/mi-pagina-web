@@ -8,5 +8,9 @@
     src: url(../font/Lato-SemiBold.ttf);
  }
 
+ @font-face {
+   font-family: "Lato-Regular.ttf";
+   src: url(../font/Lato-Regular.ttf);
+}
 
  
