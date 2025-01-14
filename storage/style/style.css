@@ -1,7 +1,9 @@
 @import url(variables.css);
 
 
-*{margin: 0; padding: 0; outline: 1px solid tomato;}
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
 input, button, textarea, select{font: inherit;}
@@ -9,22 +11,99 @@ p{text-wrap: pretty;}
 h1, h2, h3, h4, h5, h6{text-wrap: balance;}
 /* img, video, svg{height: auto; max-width: 100%;} */
 @media (prefers-reduced-motion: reduce){
-*, *::before, *::after{
-animation-duration: 0.01ms !important;
-animation-iteration-count: 1 !important;
-max-width: 100%;
-transition-duration: 0.01ms !important;
-scroll-behavior: auto !important;
-transition: none;
+        *, *::before, *::after{
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        max-width: 100%;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
 }
+
+
+body {
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
 }
-
-
-
 
 .imgcontainer{
-    background-image:  url(../img/bg.png);
-    background-size: cover;
-    width: 100%;
+    position: absolute;;
+    left:52.43vw;
+    top: 6.66vw;
+
+    img{
+        width: 41.25vw;
+        height: auto;
+    }
+    
+}
+
+.textcontainer{
+    position: absolute;
+    left: 7.29vw;
+    top: 13.125vw ;
+    width: 34.375vw ;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.22vw;
+
+    h1{
+        font-family: "Lato-SemiBold.ttf";
+        font-size: 4.44vw;
+        color: #333333;
+    }
+
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 1.66vw ;
+        color: #333333;
+    }
+
+    button{
+        width: 15.41vw;
+        height:  4.583vw;
+        background-color: #333333;
+        color: #ffffff;
+        border-radius: 2.77vw;
+        font-size: 1.5277vw;
+        font-family: "Lato-Medium.ttf";
+    }
+}
+
+.flexcontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 1.66vw;
+    left: 4.44vw;
+    top: 53.19vw ;
+    width: 50vw;
+    height: 13.47vw;
+
+
+    .itmecontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 2.22vw;
+        border:solid 4px white ;
+        border-radius: 2.22vw ;
+        padding: 1.66vw 1.11vw 1.66vw 1.11vw;
+        backdrop-filter: blur(30px);
+        
+        img{
+            width: 3.33vw;
+            height: 3.33vw;
+        }
+
+        p{
+            font-family: "Lato-Light.ttf";
+            font-size: 1.11vw;
+            font-weight: 100;
+            width: 12.97vw;
+            color: #333333;
+        }
+    }
 }

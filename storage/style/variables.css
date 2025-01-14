@@ -4,9 +4,21 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "Lato-Light.ttf";
+    src: url(../font/Lato-Light.ttf);
  }
 
+ @font-face {
+   font-family: "Lato-SemiBold.ttf";
+   src: url(../font/Lato-SemiBold.ttf);
+}
 
- 
+@font-face {
+   font-family: "Lato-Regular.ttf";
+   src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Lato-Medium.ttf";
+   src: url(../font/Lato-Medium.ttf);
+}
