@@ -33,3 +33,42 @@ body{background-color: rgba(251, 244, 223, 1);}
     left: 790px;
     top: 66px;
 }
+
+.asterisk{
+    position: absolute;
+    left: 1295px;
+    top: 690px;
+
+}
+
+.star{
+    position: absolute;
+    left: 64px;
+    top: 110px;
+}
+
+.boder{
+    left: 64px;
+    top: 220px;
+    position: absolute;
+    width: 100%;
+}
+
+.textcontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 133px;
+    top: 267px;
+    width: 558px;
+    height: auto;
+
+    h1{
+        font-family: "Lato-SemiBold.ttf";
+        font-size: 64px;
+        padding-bottom: 32px;
+    }
+
+}
+
