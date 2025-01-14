@@ -82,6 +82,7 @@ body {
     top: 53.19vw ;
     width: 50vw;
     height: 13.47vw;
+    padding-bottom: 2vw;
 
 
     .itmecontainer{
@@ -94,7 +95,6 @@ body {
         padding: 1.66vw 1.11vw 1.66vw 1.11vw;
         backdrop-filter: blur(30px);
         background: linear-gradient(-45deg, #ffffff00 0%,#ffffffad 85%) ;
-        
         img{
             width: 3.33vw;
             height: 3.33vw;
