@@ -1,7 +1,9 @@
 @import url(variables.css);
 
 
-*{margin: 0; padding: 0; outline: 1px solid tomato;}
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato*/
+}
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
 input, button, textarea, select{font: inherit;}
@@ -25,6 +27,7 @@ body{background-color: rgba(251, 244, 223, 1);}
     width: 1440px;
     height: 1024px;
     margin: 0 auto;
+    position: relative;
 }
 
 
@@ -74,6 +77,60 @@ body{background-color: rgba(251, 244, 223, 1);}
         font-family: "Lato-Regular.ttf";
         font-size: 24px;
     }
+
+    button{
+        background-color: #333333;
+        color: #ffffff;
+        width: 222px;
+        height: 66px;
+        font-family: "Lato-Medium.ttf";
+        font-size: 22px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+}
+
+.flexcontainer{
+    position: absolute;
+    left: 80px;
+    top: 778px;
+    display: flex;
+    flex-direction: row;
+    width: 1270px;
+    height: 152px;
+    justify-content: space-evenly;
+    gap: 96px;
+    align-items: center;
+    background-color: rgba(248, 208, 70, 1);
+    border-color: #333333;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 40px;
+    box-shadow: 20px 20px rgba(215, 170, 59, 1);
+
+    
+    h2{
+        width: 140px;
+        color: rgba(16, 2, 1, 1);
+        font-family: "Lato-Bold.ttf";
+        font-size: 32px;
+    }
+    
+    p{
+        width: 140px;
+        color: rgba(16, 2, 1, 1);
+        font-family: "Lato-Light.ttf";
+        font-size: 24px;
+
+    }
+
+
+}
+
+.flextext{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 
 }
 

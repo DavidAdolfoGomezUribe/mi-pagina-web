@@ -13,4 +13,20 @@
    src: url(../font/Lato-Regular.ttf);
 }
 
+
+@font-face {
+   font-family: "Lato-Medium.ttf";
+   src: url(../font/Lato-Medium.ttf);
+}
+
+
+@font-face {
+   font-family: "Lato-Bold.ttf";
+   src: url(../font/Lato-Bold.ttf);
+}
+
+@font-face {
+   font-family: "Lato-Light.ttf";
+   src: url(../font/Lato-Light.ttf);
+}
  
