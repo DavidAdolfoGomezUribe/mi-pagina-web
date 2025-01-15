@@ -1,7 +1,9 @@
 @import url(variables.css);
 
 
-*{margin: 0; padding: 0; outline: 1px solid tomato;}
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
 input, button, textarea, select{font: inherit;}
@@ -40,17 +42,20 @@ transition: none;
     flex-direction: column;
 
     h1{
+        font-family: "Lato-SemiBold.ttf";
         font-size: 64px;
         color: #333333;
     }
 
     p{
+
+        font-family: "Lato-Regular.ttf";
         font-size: 24px;
         color: #333333;
     }
 
     button{
-        
+        font-family: "Lato-Medium.ttf";
         font-size: 22px;
         color: #ffffff;
         background-color: #333333 ;
@@ -87,6 +92,10 @@ transition: none;
     gap: 24px;
     display: flex;
     flex-direction: row;
+    img{
+        width: 148px;
+        height: 148px;
+    }
 
 }
 
@@ -111,7 +120,24 @@ transition: none;
         gap: 8px;
         width: 178px;
         height: auto;
+    
+        h2{
+            font-family: "Lato-Medium.ttf";
+            font-size: 22px;
+            color: #333333;
+        }
+
+        p{
+            font-family: "Lato-Light.ttf";
+            font-size: 18px;
+            color: #333333;
+        }
+
+    
     }
+
+
+
 
 
 }
