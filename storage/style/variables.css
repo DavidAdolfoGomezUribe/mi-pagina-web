@@ -4,9 +4,18 @@
  }
 
  @font-face {
-    font-family: "example";
-    src: url(../font/example.ttf);
+    font-family: "RobotoMono-Bold.ttf";
+    src: url(../font/RobotoMono-Bold.ttf);
  }
 
 
- 
+ @font-face {
+   font-family: "RobotoMono-Regular.ttf";
+   src: url(../font/RobotoMono-Regular.ttf);
+}
+
+
+@font-face {
+   font-family: "RobotoMono-Medium.ttf";
+   src: url(../font/RobotoMono-Medium.ttf);
+}
