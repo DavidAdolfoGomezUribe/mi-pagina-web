@@ -1,8 +1,87 @@
 @import url(variables.css);
 
+*{margin: 0; padding: 0; outline: 1px solid tomato;}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
 
-*{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+.bgupperleft{
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    width: 51.597vw;
+    height: 53.68vw;
+    background-color:rgba(242, 242, 242, 1);
+    z-index: -1;
+    border-bottom-right-radius: 15vw;
+
+}
+
+.bgimg{
+    position: absolute;
+    left: 44.65vw;
+    top: 6.52vw;
+
+    img{
+        width: 48.61vw;
+        height: 44.91vw;
+    }
+}
+
+.circlelorem{
+    position: absolute;
+    left: 85.97vw;
+    top: 4.44vw;
+       
+}
+
+.textcontainer{
+    position: absolute;
+    left: 4.44vw ;
+    top: 7.083vw ;
+    display: flex;
+    flex-direction: column;
+    gap: 2.22vw;
+    width: 43.33vw;
+    height: 41.94vw;
+
+
+    .divcontainer{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+}
+
+.flexcontainer{
+    position: absolute;
+    left: 4.44vw;
+    top: 58.95vw;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+    
+    section{
+        border: 2px solid black;
+        border-radius: 1.11vw;
+        display: flex;
+        flex-direction: row;
+        
+    }
 }
