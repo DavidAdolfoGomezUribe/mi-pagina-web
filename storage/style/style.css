@@ -58,10 +58,46 @@ transition: none;
     width: 43.33vw;
     height: 41.94vw;
 
+    span{
+        color: green;
+    }
+
+    h1{
+        font-family: "Poppins-SemiBold.ttf";
+        font-size: 56px;
+    }
+
+    p{
+        font-family: "Poppins-Regular.ttf";
+        width: 35.55vw;
+        font-size: 1.66vw;
+    }
 
     .divcontainer{
         display: flex;
         flex-direction: row;
+        width: 30.34vw;
+        gap: 2.77vw;
+        
+        
+        .boxcontainer{
+            display: flex;
+            flex-direction: column;
+            gap: 0.55vw ;
+            width: 8.26vw;
+
+                div{
+                    background-color: black;
+                    width: 3.194vw;
+                    height: 0.20vw;
+                }
+                
+                p{
+                    font-size: 0.972vw ;
+                    width: 8.26vw;
+                }
+
+        }
 
     }
 
@@ -82,6 +118,18 @@ transition: none;
         border-radius: 1.11vw;
         display: flex;
         flex-direction: row;
+
+        align-items: center;
+
+        p{
+            
+        }
+
+        img{
+
+            height: 5.55vw;
+            width:  5.55vw;
+        }
         
     }
 }
