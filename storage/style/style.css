@@ -1,8 +1,79 @@
 @import url(variables.css);
 
+*{margin: 0; padding: 0; 
 
-*{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+    outline: 1px solid tomato;
+
 }
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.cointainer{
+    position: relative;
+    margin:  0 auto;
+    width: 1440px;
+    height: 1024px;
+}
+
+.textcontainer{
+    position: absolute;
+    left: 126px;
+    top: 300px;
+    width: 541px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    h1{
+        font-size: 48px;
+
+    }
+
+    p{
+        font-size: 24px;
+    }
+
+    button{
+        font-size: 22px ;
+    }
+
+}
+
+.imgcontainer{
+    background-color: hsl(0, 0%, 96%);
+    width: 1312px;
+    height: 736px;
+    position: absolute;
+    top: 65px;
+    left: 64px;
+    z-index: -1;
+
+    img:nth-child(1){
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+
+}
+
+
+
+
+
+
