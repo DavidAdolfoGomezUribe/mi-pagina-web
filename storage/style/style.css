@@ -43,11 +43,13 @@ transition: none;
         gap: 24px;
 
         h1{
+            font-family: "Lato-Bold.ttf";
             font-size: 56px;
         }
     
         p{
             font-size: 24px;
+            font-family: "Lato-Regular.ttf";
         }
     
         button{
@@ -57,7 +59,7 @@ transition: none;
             background-color: #333333;
             border-radius: 40px;
             color: white;
-    
+            font-family: "Lato-Medium.ttf";
         }
 
     }
@@ -83,10 +85,13 @@ transition: none;
             border-radius: 24px;
             padding: 24px 28px 24px 24px;
             h2{
+                font-family: "Lato-Bold.ttf";
                 font-size: 24px ;
+                
             }
 
             p{
+                font-family: "Lato-Medium.ttf";
                 font-size: 16px;
             }
         }
@@ -100,10 +105,12 @@ transition: none;
             flex-direction: column;
             gap: 8px;
             h2{
+                font-family: "Lato-Bold.ttf";
                 font-size: 24px ;
             }
 
             p{
+                font-family: "Lato-Medium.ttf";
                 font-size: 16px;
             }
         }
@@ -122,10 +129,12 @@ transition: none;
                 flex-direction: column;
                 gap: 8px;
                 h2{
+                    font-family: "Lato-Bold.ttf";
                     font-size: 24px ;
                 }
     
                 p{
+                    font-family: "Lato-Medium.ttf";
                     font-size: 16px;
                 }
             }
