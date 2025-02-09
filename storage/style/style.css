@@ -51,15 +51,18 @@ transition: none;
         
         span{
             font-size: 18px;
+            font-family: "Lato-Light.ttf";
         }
     
         h1{
             font-size: 56px;
+            font-family: "Lato-SemiBold.ttf";
         }
     }    
 
     p{
         font-size: 24px;
+        font-family: "Lato-Regular.ttf";
     }
 
 
@@ -70,6 +73,7 @@ transition: none;
         border-radius: 40px;
         color: white;
         font-size: 22px;
+        font-family: "Lato-Medium.ttf";
 
         
     }
@@ -88,7 +92,7 @@ transition: none;
     img:nth-child(2){
         position: absolute;
         top: 125px ;
-        left:496px;
+        left:469px;
         
     }
 
@@ -106,7 +110,7 @@ transition: none;
     display: flex;
     flex-direction: row;
     gap: 32px;
-    width: 964px;
+    width: 989px;
     height: 83px;
     position: absolute;
     top: 861px;
@@ -129,10 +133,12 @@ transition: none;
         h2{
             font-size: 22px;
             padding-left: 45.5px;
+            font-family: "Lato-SemiBold.ttf";
 
         }
 
         p{
+            font-family: "Lato-Regular.ttf";
             font-size: 14px;
         }
     }
