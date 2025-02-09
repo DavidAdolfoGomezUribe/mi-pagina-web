@@ -1,8 +1,154 @@
 @import url(variables.css);
 
 
-*{
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+*{margin: 0; padding: 0; 
+
+    /*outline: 1px solid tomato;*/
+
+}
+
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+
+.container{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.textcontainer{
+    position: absolute;
+    left: 46px;
+    top: 219px;
+    width: 363px;
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        
+        span{
+            font-size: 18px;
+        }
+    
+        h1{
+            font-size: 56px;
+        }
+    }    
+
+    p{
+        font-size: 24px;
+    }
+
+
+    button{
+        width: 186px;
+        height: 66px;
+        background-color: #333333;
+        border-radius: 40px;
+        color: white;
+        font-size: 22px;
+
+        
+    }
+}
+
+
+.imgcontainer{
+
+    img:nth-child(1){
+        position: absolute;
+        top: 94px ;
+        left:1176px;
+        
+    }
+
+    img:nth-child(2){
+        position: absolute;
+        top: 125px ;
+        left:496px;
+        
+    }
+
+    img:nth-child(3){
+        position: absolute;
+        top: 144px ;
+        left:386px;
+        
+    }
+    
+}
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 964px;
+    height: 83px;
+    position: absolute;
+    top: 861px;
+    left: 45px;
+    justify-content: space-between;
+
+    div{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        padding: 16px 0px;
+        
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius:16px ;
+        box-shadow:8px 8px #333333;
+        
+        h2{
+            font-size: 22px;
+            padding-left: 45.5px;
+
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+    div:nth-child(1){
+        background-color: rgba(210, 234, 244, 1);
+        
+    }
+
+    div:nth-child(2){
+        background-color: rgba(239, 196, 143, 1);
+        
+    }
+    div:nth-child(2){
+        background-color:rgba(238, 207, 205, 1);
+        
+    }
+
+
 }
