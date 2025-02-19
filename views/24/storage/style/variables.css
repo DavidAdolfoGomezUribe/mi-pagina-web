@@ -1,0 +1,29 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "ZillaSlab-SemiBold.ttf";
+    src: url(../font/ZillaSlab-SemiBold.ttf);
+ }
+
+ @font-face {
+   font-family: "ZillaSlab-Bold.ttf" ;
+   src: url(../font/ZillaSlab-Bold.ttf);
+ }
+
+ @font-face {
+   font-family: "Inter_28pt-Regular.ttf" ;
+   src: url(../font/Inter_28pt-Regular.ttf);
+ }
+
+ @font-face {
+   font-family:"Inter_28pt-SemiBold.ttf" ;
+   src: url(../font/Inter_28pt-SemiBold.ttf);
+ }
+ @font-face {
+   font-family: "Inter_28pt-Light.ttf" ;
+   src: url(../font/Inter_28pt-Light.ttf);
+ }
+ 
