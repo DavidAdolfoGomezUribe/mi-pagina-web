@@ -1,0 +1,25 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "Poppins-Bold.ttf";
+    src: url(../font/Poppins-Bold.ttf);
+ }
+
+ @font-face {
+   font-family: "Poppins-Light.ttf";
+   src: url(../font/Poppins-Light.ttf);
+}
+
+@font-face {
+   font-family: "Poppins-Regular.ttf";
+   src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Poppins-SemiBold.ttf";
+   src: url(../font/Poppins-SemiBold.ttf);
+}
+
