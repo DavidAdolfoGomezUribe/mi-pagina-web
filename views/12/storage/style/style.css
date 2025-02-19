@@ -1,0 +1,175 @@
+@import url(variables.css);
+
+
+
+*{
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        max-width: 100%;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    
+}
+
+.title{
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    width: 637px;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    h1{
+        font-family: "AvenirLTStd-Heavy.otf";
+        font-size: 72px;
+        line-height: 88px;
+        vertical-align: top;
+        text-align: left;
+        color: #252525;
+        width: 519px;
+    }
+
+    p{
+        width: 519px;
+        font-family: "AvenirLTStd-Roman.otf";
+        color: rgba(37, 37, 37, 0.8);
+        font-size: 24px;
+        line-height: auto;
+
+    }
+
+    button{
+        width: 182px; 
+        height: 66px;  
+        background-color: #252525;
+        color: white;
+        font-family: "Poppins-Regular.ttf";
+        font-size: 24px;
+        border-radius: 36px;
+        cursor: pointer;
+
+
+    }
+}
+
+
+.imgA{
+    position: absolute;
+    left: 383px;
+    top: 524px;
+    width: 316px;
+    height: 436px;
+
+}
+
+.imgB{
+    position: absolute;
+    left: 723px;
+    top: 282px;
+    width: 316px;
+    height: 436px;
+    
+}
+
+.imgC{
+    position: absolute;
+    left: 1063px;
+    top: 67px;
+    width: 316px;
+    height: 436px;
+    
+}
+
+
+.spiralShape{
+    position: absolute;
+    left: 142px;
+    top:674px;
+    width: 133px;
+    height: 283.88px;
+
+}
+
+
+.waveShape{
+    position: absolute;
+    left: 498px;
+    top: 91px;
+    width: 355px;
+    height: 126px;
+
+
+}
+
+.dawnShapeA{
+    position: absolute;
+    left: 596px;
+    top: 388px;
+    width: 248px;
+    height: 248px;
+
+}
+
+.dawnShapeB{
+    position: absolute;
+    left: 1095px;
+    top: 541px;
+    width: 257px;
+    height: 257px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    position: absolute;
+    left: 708px;
+    top: 838px;
+    width: 668px;
+    height: 122px;
+    align-items: center;
+    
+
+    img{
+        padding-left: 24px;
+        width: 80px;
+        height: 80px;
+    }
+
+    p{
+        padding-right: 24px;
+        font-family: "AvenirLTStd-Roman.otf";
+        font-size: 22px;
+        color: rgba(37, 37, 37, 0.8);
+
+    }
+
+}
+

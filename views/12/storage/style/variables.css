@@ -1,0 +1,20 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "AvenirLTStd-Heavy.otf";
+    src: url(../font/AvenirLTStd-Heavy.otf);
+ }
+
+
+ @font-face {
+   font-family: "AvenirLTStd-Roman.otf";
+   src: url(../font/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+   font-family: "Poppins-Regular.ttf";
+   src: url(../font/Poppins-Regular.ttf);
+}
