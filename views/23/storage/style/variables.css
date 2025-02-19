@@ -1,0 +1,19 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "Lato-Black.ttf";
+    src: url(../font/Lato-Black.ttf);
+ }
+
+ @font-face {
+   font-family: "Lato-Regular.ttf";
+   src: url(../font/Lato-Regular.ttf);
+}
+
+ @font-face {
+   font-family: "Lato-Light.ttf" ;
+   src: url(../font/Lato-Light.ttf);
+ }
