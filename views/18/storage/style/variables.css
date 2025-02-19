@@ -1,0 +1,13 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "Poppins-Regular.ttf";
+    src: url(../font/Poppins-Regular.ttf);
+ 
+   }
+
+
+ 
