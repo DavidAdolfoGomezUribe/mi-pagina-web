@@ -1,0 +1,27 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "Bitter-Bold.ttf";
+    src: url(../font/Bitter-Bold.ttf);
+ }
+
+ @font-face {
+   font-family: "Bitter-ExtraBold.ttf";
+   src: url(../font/Bitter-ExtraBold.ttf);
+}
+
+@font-face {
+   font-family: "SpaceMono-Bold.ttf";
+   src: url(../font/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+   font-family: "SpaceMono-Regular.ttf";
+   src: url(../font/SpaceMono-Regular.ttf);
+}
+
+
+ 
