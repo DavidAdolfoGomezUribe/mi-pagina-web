@@ -1,0 +1,143 @@
+@import url(variables.css);
+
+
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.container{
+
+    width: 1440px ;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.textcontainer{
+    position: absolute;
+    left: 80px;
+    top: 132px;
+    width: 495px;
+    height: 396px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-family: "Lato-SemiBold.ttf";
+        font-size: 64px;
+        color: #333333;
+    }
+
+    p{
+
+        font-family: "Lato-Regular.ttf";
+        font-size: 24px;
+        color: #333333;
+    }
+
+    button{
+        font-family: "Lato-Medium.ttf";
+        font-size: 22px;
+        color: #ffffff;
+        background-color: #333333 ;
+        width: 222px;
+        height: 66px;
+        cursor: pointer;
+        border-radius: 40px ;
+    }
+}
+
+.fleximageA{
+    position: absolute;
+    left: 708px;
+    top: 98px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fleximageB{
+    position: absolute;
+    left: 1058px;
+    top: 189px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxcontainer{
+    position: absolute;
+    left: 80px;
+    top: 588px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 148px;
+        height: 148px;
+    }
+
+}
+
+
+.flexcontainer{
+    position: absolute;
+    display: flex;
+    gap: 64px;
+    flex-direction: row;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    top: 796px;
+    left: 80px;
+    width: 492px;
+    height: 136px;
+    align-items: center;
+    justify-content: center;
+
+    .datext{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 178px;
+        height: auto;
+    
+        h2{
+            font-family: "Lato-Medium.ttf";
+            font-size: 22px;
+            color: #333333;
+        }
+
+        p{
+            font-family: "Lato-Light.ttf";
+            font-size: 18px;
+            color: #333333;
+        }
+
+    
+    }
+
+
+
+
+
+}
