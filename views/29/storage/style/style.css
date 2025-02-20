@@ -1,0 +1,131 @@
+@import url(variables.css);
+
+
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+
+main{
+    position: relative;
+    
+    width: 100%;
+    
+
+}
+
+
+.textcontainer{
+    position: absolute;
+    left: 4.44vw;
+    top: 8.4vw;
+    height: auto;
+    width: 40.34vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3.33vw ;
+
+    h1{
+        font-family: "Lato-SemiBold.ttf";
+        font-size: 5vw ;
+        color: #ffffff;
+
+    }
+
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 1.66vw;
+        color: #ffffff;
+        font-weight: 100;
+    }
+
+    button{
+        width: 15.42vw;
+        height: 4.58vw;
+        background-color: #ffffff;
+        color: rgba(18, 42, 41, 1);
+        font-family: "Lato-Medium.ttf";
+        font-size: 1.527vw;
+        border-radius: 2.7vw ;
+        cursor: pointer;
+    }
+
+
+}
+
+.imgcontainer{
+    position: relative;
+
+    img{
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+
+.imgbottoncontainer{
+    display: flex;
+    position: absolute;
+    top: 53vw;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 91.15vw;
+    height: 10.73vw;
+    z-index: 0;
+    padding-bottom: 2vw;
+    
+    
+    img{
+        
+        width: 100%;
+    }
+    
+    
+}
+
+.text{
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0)0%,
+        rgba(27, 27, 27, 0.774)60%,
+        rgba(27, 27, 27, 1)100%
+        );
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    left: 50%;
+    transform:translateX(-50%);
+    
+    font-size: 1.80vw ;
+    font-family: "Lato-SemiBold.ttf";
+    color: white;
+    height: 3.3vw;
+    border-bottom-left-radius: 1vw ;
+    border-bottom-right-radius: 1vw;
+    top: 60.5vw;
+
+    p{  
+        justify-content: space-around;
+        display: flex;
+        width: 15.19vw;
+        height: auto;
+
+        
+    }
+}
