@@ -1,0 +1,21 @@
+:root{ 
+    --color-1: white;
+    
+ }
+
+ @font-face {
+    font-family: "RobotoMono-Bold.ttf";
+    src: url(../font/RobotoMono-Bold.ttf);
+ }
+
+
+ @font-face {
+   font-family: "RobotoMono-Regular.ttf";
+   src: url(../font/RobotoMono-Regular.ttf);
+}
+
+
+@font-face {
+   font-family: "RobotoMono-Medium.ttf";
+   src: url(../font/RobotoMono-Medium.ttf);
+}
