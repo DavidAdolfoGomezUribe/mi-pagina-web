@@ -1,0 +1,150 @@
+@import url(variables.css);
+
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.bgupperleft{
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    width: 51.597vw;
+    height: 53.68vw;
+    background-color:rgba(242, 242, 242, 1);
+    z-index: -1;
+    border-bottom-right-radius: 15vw;
+
+}
+
+.bgimg{
+    position: absolute;
+    left: 44.65vw;
+    top: 6.52vw;
+
+    img{
+        width: 48.61vw;
+        height: 44.91vw;
+    }
+}
+
+.circlelorem{
+    position: absolute;
+    left: 85.97vw;
+    top: 4.44vw;
+       
+}
+
+.textcontainer{
+    position: absolute;
+    left: 4.44vw ;
+    top: 7.083vw ;
+    display: flex;
+    flex-direction: column;
+    gap: 2.22vw;
+    width: 43.33vw;
+    height: 41.94vw;
+
+    span{
+        color: green;
+    }
+
+    h1{
+        font-family: "Poppins-SemiBold.ttf";
+        font-size: 3.88vw;
+    }
+
+    p{
+        font-family: "Poppins-Regular.ttf";
+        width: 35.55vw;
+        font-size: 1.66vw;
+    }
+
+    .divcontainer{
+        display: flex;
+        flex-direction: row;
+        width: 30.34vw;
+        gap: 2.77vw;
+        
+        
+        .boxcontainer{
+            display: flex;
+            flex-direction: column;
+            gap: 0.55vw ;
+            width: 8.26vw;
+
+                div{
+                    background-color: black;
+                    width: 3.194vw;
+                    height: 0.20vw;
+                }
+                
+                p{
+                    font-size: 0.972vw ;
+                    width: 8.26vw;
+                }
+            }
+    }
+    
+    button{
+        background-color: rgba(67, 114, 35, 1);
+        color: white;
+        font-family: "Poppins-Medium.ttf";
+        width: 20.34vw;
+        height: 4.58vw;
+        border-radius: 6vw;
+        border: none;
+        font-size: 1.66vw;
+        }
+
+
+
+}
+
+.flexcontainer{
+    position: absolute;
+    left: 4.44vw;
+    top: 58.95vw;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-bottom: 2vw;
+    
+    section{
+        padding: 1vw;
+        border: 2px solid black;
+        border-radius: 1.11vw;
+        display: flex;
+        flex-direction: row;
+        gap: 1.66vw;
+        align-items: center;
+
+        p{
+            width: 17.84vw;
+            font-family: "Poppins-Regular.ttf";
+            line-height: 1.4vw;
+        }
+
+        img{
+
+            height: 5.55vw;
+            width:  5.55vw;
+        }
+        
+    }
+}
