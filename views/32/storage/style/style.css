@@ -1,0 +1,136 @@
+@import url(variables.css);
+
+
+*{margin: 0; padding: 0; 
+    /*outline: 1px solid tomato*/
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+/* img, video, svg{height: auto; max-width: 100%;} */
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+body{background-color: rgba(251, 244, 223, 1);}
+
+.container{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.imgcontainer{
+    position: absolute;
+    left: 790px;
+    top: 66px;
+}
+
+.asterisk{
+    position: absolute;
+    left: 1295px;
+    top: 690px;
+
+}
+
+.star{
+    position: absolute;
+    left: 64px;
+    top: 110px;
+}
+
+.boder{
+    left: 64px;
+    top: 220px;
+    position: absolute;
+    width: 100%;
+}
+
+.textcontainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 133px;
+    top: 267px;
+    width: 558px;
+    height: auto;
+
+    h1{
+        font-family: "Lato-SemiBold.ttf";
+        font-size: 64px;
+        padding-bottom: 32px;
+    }
+
+    p{
+        font-family: "Lato-Regular.ttf";
+        font-size: 24px;
+    }
+
+    button{
+        background-color: #333333;
+        color: #ffffff;
+        width: 222px;
+        height: 66px;
+        font-family: "Lato-Medium.ttf";
+        font-size: 22px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+}
+
+.flexcontainer{
+    position: absolute;
+    left: 80px;
+    top: 778px;
+    display: flex;
+    flex-direction: row;
+    width: 1270px;
+    height: 152px;
+    justify-content: space-evenly;
+    gap: 96px;
+    align-items: center;
+    background-color: rgba(248, 208, 70, 1);
+    border-color: #333333;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 40px;
+    box-shadow: 20px 20px rgba(215, 170, 59, 1);
+
+    
+    h2{
+        width: 140px;
+        color: rgba(16, 2, 1, 1);
+        font-family: "Lato-Bold.ttf";
+        font-size: 32px;
+    }
+    
+    p{
+        width: 140px;
+        color: rgba(16, 2, 1, 1);
+        font-family: "Lato-Light.ttf";
+        font-size: 24px;
+
+    }
+
+
+}
+
+.flextext{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
