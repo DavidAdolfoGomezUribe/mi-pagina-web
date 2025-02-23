@@ -13,17 +13,55 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    color: white;
+    background-image:  linear-gradient(30deg, #80A0FF 12%, transparent 12.5%, transparent 87%, #80A0FF 87.5%, #80A0FF), linear-gradient(150deg, #80A0FF 12%, transparent 12.5%, transparent 87%, #80A0FF 87.5%, #80A0FF), linear-gradient(30deg, #80A0FF 12%, transparent 12.5%, transparent 87%, #80A0FF 87.5%, #80A0FF), linear-gradient(150deg, #80A0FF 12%, transparent 12.5%, transparent 87%, #80A0FF 87.5%, #80A0FF), linear-gradient(60deg, rgba(128,160,255,0.5) 25%, transparent 25.5%, transparent 75%, rgba(128,160,255,0.5) 75%, rgba(128,160,255,0.5)), linear-gradient(60deg, rgba(128,160,255,0.5) 25%, transparent 25.5%, transparent 75%, rgba(128,160,255,0.5) 75%, rgba(128,160,255,0.5));
+    background-size: 200px 350px;
+    background-position: 0 0, 0 0, 100px 175px, 100px 175px, 0 0, 100px 175px;
+    background-color: #04003B;
+   
   }
 
-h1 {
+  .textcontainer{
+    background: linear-gradient(170deg, #04003bf5 30%,#0f3c9eea 70%, #80a0fff6 100%);
+    
     width: 100%;
     height: 100vh;
-    line-height: 80vh;
-    text-align: center;
-    text-wrap: nowrap;
-    font-size: 5vw;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    
+    border-bottom: 10px double #04003B;
+
+      h1{
+        
+        margin-top: 5vw;
+        width: 100%;
+        height: 10vh;
+        
+        text-align: center;
+        text-wrap: nowrap;
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+        width: 100%;
+        height: 10vh;
+        
+        text-align: center;
+        text-wrap: nowrap;
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p{
+        width: 100%;
+        height: 100vh;
+        
+        text-align: center;
+        
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
   .view {
     width: 100%;
     display: flex;
