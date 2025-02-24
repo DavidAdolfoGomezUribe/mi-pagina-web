@@ -20,6 +20,9 @@ body {
     background-color: #04003B;
    
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
   .textcontainer{
     background: linear-gradient(170deg, #04003bf5 30%,#0f3c9eea 70%, #80a0fff6 100%);
